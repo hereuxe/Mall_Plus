@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:background="#00FFFFFF"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity" android:orientation="vertical">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp">
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/mall_plus_5"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="6dp"
+                    android:text="Indoor mall navigation is important for a number of reasons:
+                Enhances the shopping experience: Indoor mall navigation makes it easier for shoppers to find their way around the mall, locate stores, and navigate to the stores they want to visit."
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="6dp"
+                    android:text="Increases customer satisfaction: When customers are able to find what they are looking for quickly and easily, they are more likely to be satisfied with their shopping experience."
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="6dp"
+                    android:text="Saves time: Indoor mall navigation saves time for both customers and mall staff. Customers can quickly find the stores they want to visit, and mall staff can spend less time giving directions and answering questions."
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="6dp"
+                    android:text="Improves safety: Indoor mall navigation can improve safety by providing clear and accurate directions to emergency exits and other important locations in the mall."
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="6dp"
+                    android:text="We are the creators of Mall Plus. We have everything from navigation to security features on this application."
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/test3"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="6dp"
+                    android:text="Front left to right (Ali, Raniel)"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="6dp"
+                    android:text="Back left to right (Ajay, John, Adnan)"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="6dp"
+                    android:text="Adnan Linkedin URL: https://www.linkedin.com/in/adnan-a-b71421242"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="6dp"
+                    android:text="Ali Linkedin URL: https://www.linkedin.com/in/alidad-amiri-a21b61182/"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="6dp"
+                    android:text="Ajay Linkedin URL: https://www.linkedin.com/in/ajay-patel-703591217/"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="6dp"
+                    android:text="John Linkedin URL: https://www.linkedin.com/in/john-catimbang-4073a7269/"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="6dp"
+                    android:text="Raniel Linkedin URL: https://www.linkedin.com/in/raniel-maranan-776244120/"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:text="We have implemented features for our customers, we have made alot of progress and we are proud to present our application to you."
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/mall_plus_4"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:text="I told you, I got this bro!"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
